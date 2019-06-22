@@ -203,7 +203,6 @@ section .people-items .people-text p{
     background-repeat: no-repeat;
     height: 335px;
 }
-
 #sign-up .sign-items{
     display: flex;
     flex-direction: column;
@@ -252,14 +251,23 @@ footer .main-footer .footer-nav ul li a{
     font-size: 16px;
     text-transform: none;
 }
+footer .main-footer .footer-nav ul li a:hover{
+    color: #0067D5;
+    border-bottom: 1px solid #0067D5;
+}
 footer .main-footer .footer-nav p{
     font-size: 13px;
 }
 footer .main-footer .social-icon{
     display: flex;
 }
+footer .main-footer .social-icon a{
+    margin-left:30px;
+}
 footer .main-footer .social-icon i{
     font-size: 32px;
     color: #007BFF;
-    padding:15px;
+}
+footer .main-footer .social-icon i:hover{
+    color: #0067D5;
 }
